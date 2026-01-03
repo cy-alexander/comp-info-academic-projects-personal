@@ -1,0 +1,11 @@
+# Archivos compilados de Java
+*.class
+/bin/
+
+# Configuración interna de Eclipse (no necesaria)
+.settings/
+.metadata/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
