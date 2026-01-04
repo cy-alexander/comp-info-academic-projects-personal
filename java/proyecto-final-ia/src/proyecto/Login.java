@@ -30,6 +30,7 @@ import javax.swing.SwingConstants;
  * <li>Usuario: admin</li>
  * <li>Contraseña: 1234</li>
  * </ul>
+ * 
  * </p>
  * <p>
  * El sistema permite un máximo de 3 intentos fallidos antes de bloquearse.

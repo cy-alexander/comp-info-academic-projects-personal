@@ -1,11 +1,16 @@
-# Archivos compilados de Java
-*.class
-/bin/
-
-# Configuración interna de Eclipse (no necesaria)
-.settings/
+# ===== Eclipse =====
 .metadata/
+.settings/
+bin/
 
-# Archivos del sistema
-Thumbs.db
+# ===== Java =====
+*.class
+
+# ===== OS =====
 .DS_Store
+Thumbs.db
+
+# ===== IDEs =====
+.vscode/
+.idea/
+
