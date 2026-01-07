@@ -77,4 +77,5 @@ Alexander Carrasco
 - Proyecto educativo personal 
 
 Contribuciones 
+
 Este es un proyecto educativo personal reorganizado y mejorado desarrollado como parte de mi proceso de aprendizaje. Actualmente no se aceptan pull requests, pero cualquier comentario, sugerencia o feedback es bienvenido.  
