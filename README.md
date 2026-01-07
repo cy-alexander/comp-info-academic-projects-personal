@@ -51,6 +51,7 @@ Pasos de Instalación
      src/proyecto/Login.java
    - Click derecho sobre el archivo
    - Seleccionar Run As → Java Application
+
 Credenciales de Prueba
 Para acceder al sistema, utilice las siguientes credenciales predefinidas:
   - Usuario: admin
