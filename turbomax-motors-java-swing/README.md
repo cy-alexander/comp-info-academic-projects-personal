@@ -35,6 +35,7 @@ Tecnologías  Utilizadas
 - Arquitectura: Programación Orientada a Objetos
 
 Cómo Ejecutar el Proyecto 
+
 Requisitos Previos: 
   - JAVA JDK 8 o superior
   - Eclipse IDE (recomendado) o cualquier IDE compatible con proyectos Java
