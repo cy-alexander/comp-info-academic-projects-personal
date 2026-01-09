@@ -74,6 +74,7 @@ Limitaciones Conocidas
 - No se utiliza una base de datos real.
 
 Autor:
+
 Alexander Carrasco 
 - Estudiante de Computación e Informática - 4to Ciclo
 - Proyecto educativo personal 
