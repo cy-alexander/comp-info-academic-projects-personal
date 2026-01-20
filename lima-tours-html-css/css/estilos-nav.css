@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+h1,
+h2,
+h3,
+p {
+    cursor: default;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.menu ul li {
+    align-items: center;
+    margin: 3px 0;
+}
+
+.menu ul li a {
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 19px;
+    font-weight: 550;
+    margin: 0 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.seccion:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user i {
+    font-size: 43px;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: lighter;
+    transition: 0.6s;
+}
+
+.user i:hover {
+    color: rgb(255, 255, 255);
+}
+
+.login {
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    border-radius: 18px;
+    padding: 7px 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 19px;
+    font-weight: 550;
+    margin: 0 25px;
+    transition: all 0.5s ease;
+}
+
+.login:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.pie {
+    background: rgba(22, 22, 22, 0.747) url(../images/fondopie.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie img {
+    margin-bottom: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.opciones li {
+    list-style: none;
+}
+
+.opciones a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 15px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.opciones a:hover {
+    opacity: 1;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.iconos li {
+    list-style: none;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-15px)
+}
+
+.pie p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}

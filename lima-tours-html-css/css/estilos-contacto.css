@@ -1,0 +1,109 @@
+.cabecera {
+    background: rgba(0, 0, 0, 0.6) url(../images/contacto.jpeg);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.encabezado {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.encabezado h1 {
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.encabezado p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 50%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+section>h2 {
+    color: #488eac;
+    font-size: 50px;
+    width: 75%;
+    text-align: center;
+    font-weight: 900;
+    margin: 30px;
+}
+
+section>p {
+    width: 65%;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+section article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.bloque>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 80px;
+}
+
+.bloque>div i {
+    font-size: 100px;
+    color: #287b9e;
+    transition: 0.5s;
+}
+
+.bloque>div i:hover {
+    opacity: 0.8;
+}
+
+.youtube .contact {
+    margin: 25px;
+}
+
+.correo .contact {
+    width: 185px;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.contact h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.contact p {
+    margin: 10px;
+    font-size: 20px;
+}

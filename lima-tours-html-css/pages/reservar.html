@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar | LimaTours.com</title>
+    <link rel="stylesheet" href="../css/estilos-nav.css">
+    <link rel="stylesheet" href="../css/estilos-login.css">
+    <link rel="icon" type="image/png" href="../images/LogoTitle.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/estilos-reservar.css">
+</head>
+
+<body>
+    <header class="cabercera">
+        <nav class="menu">
+            <a href="index.html"><img width="130px" src="../images/Logo.png" alt="Logo de la página"></a>
+            <ul>
+                <li><a class="seccion" href="index.html">Inicio</a></li>
+                <li><a class="seccion" href="destinos.html">Destinos</a></li>
+                <li><a class="seccion" href="paquetes.html">Paquetes</a></li>
+                <li><a class="seccion" href="acercade.html">Acerca de</a></li>
+                <li><a class="seccion" href="blog.html">Blog</a></li>
+                <li><a class="seccion" href="contacto.html">Contáctanos</a></li>
+            </ul>
+            <div class="usuario">
+                <a href="iniciarsesion.html" class="user"><i class='bx bx-user-circle'></i></a>
+                <a class="login" href="iniciarsesion.html">Iniciar Sesión</a>
+            </div>
+        </nav>
+    </header>
+    <main class="reservar">
+        <form class="form-reservar" action="" method="post">
+            <h1>
+                <em>Reserva tu destino o paquete</em>
+            </h1>
+            <hr>
+            <p class="texto">
+                <em>Completa los datos para seguir con tu reserva</em>
+            </p>
+            <div class="bloque">
+                <label for="destino">Destino o Paquete</label>
+                <input class="campo" type="text" id="destino" placeholder="Ej: Miraflores, Turismo Nocturno">
+            </div>
+            <div class="bloque">
+                <label for="fecha">Fecha</label>
+                <input class="campo" type="date" id="fecha">
+            </div>
+            <div class="bloque">
+                <label for="personas">Cantidad de pasajeros</label>
+                <input class="campo" type="number" id="personas" min="1" placeholder="Mínimo según destino">
+            </div>
+            <div class="boton">
+                <input type="submit" value="Reservar">
+            </div>
+            <div class="linea"></div>
+            <div class="crear">
+                <p>¿Ya tienes cuenta?</p>
+                <a href="iniciarsesion.html">Iniciar Sesión</a>
+                <p>¿Aún no tienes cuenta?</p>
+                <a href="crearcuenta.html">Crear Cuenta</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+.cabecera {
+    background: rgba(0, 0, 0, 0.6) url(../images/miraflores3.png);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.encabezado {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.encabezado h1 {
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.encabezado p {
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: 500;
+    width: 50%;
+}
+
+main>h2 {
+    color: #3a90b4;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 40px 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.contenedor1 {
+    margin: 30px;
+    display: flex;
+    max-width: 840px;
+    ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.imagen {
+    max-width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.imagen img:hover {
+    opacity: 0.85;
+}
+
+.contenido {
+    width: 90%;
+}
+
+.contenido h2 {
+    margin: 10px 0;
+    color: #0f4861;
+}
+
+.contenido ul {
+    margin: 20px 0px;
+}
+
+.contenido ul li {
+    margin: 10px 0px;
+    font-size: 19px;
+    margin-left: 12px;
+    text-align: justify;
+}
+
+.contenido i {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.contenido p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 41px;
+}
+
+.contenedor2 h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0c2f5c;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 13px 0px;
+}
+
+.texto {
+    width: 400px;
+    padding: 10px 25px 25px 25px
+}
+
+.texto>p {
+    padding: 20px 0px;
+}
+
+.texto i {
+    display: flex;
+    align-items: center;
+}
+
+.texto i p {
+    margin-left: 10px;
+}
+
+.foto {
+    max-width: 400px;
+}
+
+.foto img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.foto img:hover {
+    opacity: 0.8;
+}

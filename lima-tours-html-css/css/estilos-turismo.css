@@ -1,0 +1,47 @@
+.tema-cultural .datos {
+    background-color: #984007;
+}
+
+.tema-cultural .button {
+    background-color: #984007;
+}
+
+.tema-cultural .datos button:hover {
+    color: #984007;
+}
+
+.tema-cultural .text h2 {
+    color: #8b2901;
+}
+
+.tema-lujo .datos {
+    background-color: #a34b73;
+}
+
+.tema-lujo .datos button {
+    background-color: #a34b73;
+}
+
+.tema-lujo .datos button:hover {
+    color: #a34b73;
+}
+
+.tema-lujo .text h2 {
+    color: #7e3b57;
+}
+
+.tema-nocturno .datos {
+    background-color: #033997;
+}
+
+.tema-nocturno .datos button {
+    background-color: #033997;
+}
+
+.tema-nocturno .datos button:hover {
+    color: #033997;
+}
+
+.tema-nocturno .text h2 {
+    color: #033997;
+}
