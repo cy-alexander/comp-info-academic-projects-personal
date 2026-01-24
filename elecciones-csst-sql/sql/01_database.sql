@@ -1,0 +1,5 @@
+CREATE DATABASE Elecciones_CSST; 
+GO
+
+USE Elecciones_CSST;
+GO
